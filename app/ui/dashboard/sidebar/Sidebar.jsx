@@ -4,6 +4,7 @@ import {
   HelpingHand,
   LayoutDashboard,
   LibraryBig,
+  LogOut,
   Settings,
   ShoppingBag,
   ShoppingBasket,
@@ -80,7 +81,13 @@ const Sidebar = () => {
   return (
     <div className={styles.container}>
       <div className={styles.user}>
-        <Image className={styles.userImage} src="/noavatar.png" alt="" width="50" height="50" />
+        <Image
+          className={styles.userImage}
+          src="/noavatar.png"
+          alt=""
+          width="50"
+          height="50"
+        />
         <div className={styles.userDetail}>
           <span className={styles.username}>Jane Doe</span>
           <span className={styles.userTitle}>Administrator</span>
@@ -96,6 +103,10 @@ const Sidebar = () => {
           </li>
         ))}
       </ul>
+      <button className={styles.logout}>
+        <LogOut />
+        Log out
+      </button>
     </div>
   );
 };

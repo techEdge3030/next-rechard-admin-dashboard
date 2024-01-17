@@ -1,0 +1,45 @@
+.container {
+  background-color: var(--bgSoft);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.title {
+  color: var(--secondaryText);
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #6d6d6d;
+  padding: 10px;
+  border-radius: 12px;
+}
+
+.input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: var(--primaryText);
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+}
