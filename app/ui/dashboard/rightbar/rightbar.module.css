@@ -1,0 +1,52 @@
+.container {
+  position: fixed;
+}
+
+.item {
+  background-color: var(--bgSoft);
+  padding: 20px 24px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.texts {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.notification {
+  font-weight: 200;
+  color: var(--secondaryText);
+  font-size: 22px;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--primaryText);
+}
+
+.subtitle {
+  color: var(--primaryText);
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.desc {
+  color: var(--primaryText);
+  font-size: 14px;
+}
+
+.button {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: var(--secondaryText);
+  color: black;
+  cursor: pointer;
+  border: none;
+  border-radius: 12px;
+  width: max-content;
+}

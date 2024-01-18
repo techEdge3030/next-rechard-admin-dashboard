@@ -9,8 +9,8 @@
 
 .title {
   color: var(--secondaryText);
-  font-weight: bold;
-  font-size: 20px;
+  font-weight: 300;
+  font-size: 22px;
   letter-spacing: 2px;
   text-transform: capitalize;
 }
@@ -38,8 +38,8 @@
 }
 
 .icons {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  cursor: pointer;
 }
