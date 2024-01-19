@@ -1,10 +1,10 @@
 .container {
-  padding: 20px;
+  padding: 1.25rem;
   display: flex;
   align-items: center;
-  gap: 10px;
-  margin: 7px 0px;
-  border-radius: 12px;
+  gap: 0.625rem;
+  margin: 0.438rem 0rem;
+  border-radius: 0.75rem;
 }
 
 .container:hover,

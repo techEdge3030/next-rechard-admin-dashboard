@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+  background-color: #6d6d6d;
+  padding: 0.625rem;
+  border-radius: 0.75rem;
+  width: max-content;
+}
+
+.input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: var(--primaryText);
+}

@@ -5,7 +5,7 @@ const RightBar = () => {
   return (
     <div className={styles.container}>
       <div className={styles.item}>
-        <div className={styles.texts}>
+        <di className={styles.texts}>
           <span className={styles.notification}>Available Now</span>
           <h3 className={styles.title}>
             How to use the new version of the admin dashboard?
@@ -20,7 +20,7 @@ const RightBar = () => {
             <Play size={20} strokeWidth={1.75} />
             Watch
           </button>
-        </div>
+        </di>
       </div>
       <div className={styles.item}>
         <div className={styles.texts}>

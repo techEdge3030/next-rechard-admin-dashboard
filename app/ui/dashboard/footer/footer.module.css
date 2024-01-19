@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.625rem;
+  margin-top: 1.875rem;
+}
+
+.logo {
+  color: var(--secondaryText);
+  font-weight: 200;
+  font-size: 0.875rem;
+}
+
+.text {
+  color: var(--primaryText);
+  font-weight: 200;
+  font-size: 0.875rem;
+}

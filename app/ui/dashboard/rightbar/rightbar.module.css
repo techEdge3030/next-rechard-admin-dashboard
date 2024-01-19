@@ -1,52 +1,54 @@
 .container {
   position: fixed;
+  margin-right: 1.25rem;
 }
 
 .item {
   background-color: var(--bgSoft);
-  padding: 20px 24px;
-  border-radius: 12px;
-  margin-bottom: 20px;
+  padding: 1.25rem 1.5rem;
+  border-radius: 0.75rem;
+  margin-bottom: 1.25rem;
 }
 
 .texts {
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 1.25rem;
 }
 
 .notification {
   font-weight: 200;
   color: var(--secondaryText);
-  font-size: 22px;
+  font-size: 1.375rem;
 }
 
 .title {
-  font-weight: 500;
-  font-size: 18px;
+  font-weight: 300;
+  font-size: 1.125rem;
   color: var(--primaryText);
 }
 
 .subtitle {
   color: var(--primaryText);
   font-weight: 500;
-  font-size: 12px;
+  font-size: 0.75rem;
 }
 
 .desc {
   color: var(--primaryText);
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 .button {
-  padding: 10px;
+  padding: 0.625rem;
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 0.625rem;
   background-color: var(--secondaryText);
   color: black;
   cursor: pointer;
   border: none;
-  border-radius: 12px;
+  border-radius: 0.75rem;
   width: max-content;
+  letter-spacing: 0.063rem;
 }

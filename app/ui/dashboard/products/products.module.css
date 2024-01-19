@@ -1,0 +1,66 @@
+.container {
+    background-color: var(--bgSoft);
+    padding: 1.25rem;
+    border-radius: 0.75rem;
+    margin-top: 1.25rem;
+  }
+  
+  .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .addButton {
+    padding: 0.7rem;
+    background-color: #6d6d6d;
+    color: var(--primaryText);
+    border-radius: 0.75rem;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .addButton:hover {
+    color: var(--secondaryText);
+  }
+  
+  .table {
+    width: 100%;
+  }
+  
+  .table td {
+    padding: 0.625rem;
+  }
+  
+  .product {
+    display: flex;
+    align-items: center;
+    gap: 0.625rem;
+  }
+  
+  .prodImage {
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 0.625rem;
+  }
+  
+  .button {
+    padding: 0.313rem 0.625rem;
+    border: none;
+    border-radius: 0.438rem;
+    color: var(--primaryText);
+    cursor: pointer;
+  }
+  
+  .view {
+    background-color: #82a0d8;
+  }
+  
+  .delete {
+    background-color: #e97777;
+  }
+  
