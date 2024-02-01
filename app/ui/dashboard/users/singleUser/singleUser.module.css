@@ -1,0 +1,68 @@
+.container {
+  display: flex;
+  gap: 1.2rem;
+  margin-top: 1.25rem;
+}
+
+.infoContainer {
+  flex: 1;
+  background-color: var(--bgSoft);
+  padding: 1.25rem;
+  border-radius: 0.75rem;
+  font-weight: bold;
+  color: var(--secondaryText);
+  height: max-content;
+}
+
+.imgContainer {
+  width: 100%;
+  height: 18.75rem;
+  position: relative;
+  border-radius: 0.75rem;
+  overflow: hidden;
+  margin-bottom: 1.25rem;
+}
+
+.formContainer {
+  flex: 3;
+  background-color: var(--bgSoft);
+  padding: 1.25rem;
+  border-radius: 0.75rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form input,
+.form textarea,
+.form select {
+  padding: 1.25rem;
+  border: 2px solid #6d6d6d;
+  border-radius: 0.625rem;
+  background-color: transparent;
+  color: var(--primaryText);
+  margin: 0.75rem 0rem;
+}
+
+.form label {
+    font-size: 0.85rem;
+}
+
+.form button {
+    width: 5.4rem;
+    padding: 1.25rem;
+    background-color: #6d6d6d;
+    color: var(--primaryText);
+    border: none;
+    border-radius: 0.625rem;
+    font-size: 0.85rem;
+    cursor: pointer;
+    font-weight: 500;
+    margin-top: 1.25rem;
+}
+
+.form button:hover {
+    color: var(--secondaryText);
+}

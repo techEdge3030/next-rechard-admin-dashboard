@@ -14,7 +14,7 @@
 .addButton {
   padding: 0.7rem;
   background-color: #6d6d6d;
-  color: var(--primaryText);
+  color: #bbd12c;
   border-radius: 0.75rem;
   border: none;
   cursor: pointer;
