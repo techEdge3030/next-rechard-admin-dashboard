@@ -7,7 +7,7 @@ export const metadata = {
   title: "Admin Dashboard",
   description: "Next.js Admin Dashboard",
   icons: {
-    icon: ["/favicon.ico"],
+    icon: ["/zap.ico"],
   },
 };
 

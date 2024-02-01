@@ -44,7 +44,7 @@ const ProductsPage = () => {
             <td>77</td>
             <td>
               <div className={styles.buttons}>
-                <Link href="/dashboard/users/test">
+                <Link href="/dashboard/products/test">
                   <button className={`${styles.button} ${styles.view}`}>
                     View
                   </button>
@@ -74,97 +74,7 @@ const ProductsPage = () => {
             <td>77</td>
             <td>
               <div className={styles.buttons}>
-                <Link href="/">
-                  <button className={`${styles.button} ${styles.view}`}>
-                    View
-                  </button>
-                </Link>
-                <button className={`${styles.button} ${styles.delete}`}>
-                  Delete
-                </button>
-              </div>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <div className={styles.product}>
-                <Image
-                  src="/noproduct.jpg"
-                  alt=""
-                  width={40}
-                  height={40}
-                  className={styles.prodImage}
-                />
-                Iphone
-              </div>
-            </td>
-            <td>Desc</td>
-            <td>$2222</td>
-            <td>21.02.2024</td>
-            <td>77</td>
-            <td>
-              <div className={styles.buttons}>
-                <Link href="/">
-                  <button className={`${styles.button} ${styles.view}`}>
-                    View
-                  </button>
-                </Link>
-                <button className={`${styles.button} ${styles.delete}`}>
-                  Delete
-                </button>
-              </div>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <div className={styles.product}>
-                <Image
-                  src="/noproduct.jpg"
-                  alt=""
-                  width={40}
-                  height={40}
-                  className={styles.prodImage}
-                />
-                Iphone
-              </div>
-            </td>
-            <td>Desc</td>
-            <td>$2222</td>
-            <td>21.02.2024</td>
-            <td>77</td>
-            <td>
-              <div className={styles.buttons}>
-                <Link href="/">
-                  <button className={`${styles.button} ${styles.view}`}>
-                    View
-                  </button>
-                </Link>
-                <button className={`${styles.button} ${styles.delete}`}>
-                  Delete
-                </button>
-              </div>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <div className={styles.product}>
-                <Image
-                  src="/noproduct.jpg"
-                  alt=""
-                  width={40}
-                  height={40}
-                  className={styles.prodImage}
-                />
-                Iphone
-              </div>
-            </td>
-            <td>Desc</td>
-            <td>$2222</td>
-            <td>21.02.2024</td>
-            <td>77</td>
-            <td>
-              <div className={styles.buttons}>
-                <Link href="/">
+                <Link href="/dashboard/products/test">
                   <button className={`${styles.button} ${styles.view}`}>
                     View
                   </button>
