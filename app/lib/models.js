@@ -38,6 +38,7 @@ const userSchema = new mongoose.Schema(
   },
   { timestamps: true }
 );
+
 const productSchema = new mongoose.Schema(
   {
     title: {

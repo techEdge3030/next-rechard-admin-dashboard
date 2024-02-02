@@ -16,7 +16,8 @@
     "react": "18",
     "react-dom": "18",
     "recharts": "^2.10.4",
-    "teleportation": "^1.0.0"
+    "teleportation": "^1.0.0",
+    "use-debounce": "^9.0.4"
   },
   "devDependencies": {
     "eslint": "8",
