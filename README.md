@@ -17,7 +17,7 @@ To get the project up and running on your local machine, follow these steps:
 
 Clone the repository:
 ````
-git clone https://github.com/dilarauluturhan/admin-dashboard.git
+git clone https://github.com/techEdge3030/next-rechard-admin-dashboard.git
 ````
 Go to the project directory:
 ````
